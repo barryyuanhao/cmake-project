@@ -12,6 +12,7 @@ int main(int argc, char* argv[]){
     std::hash<std::string> gethash;
     auto key = gethash(node_name);
 
+    // reader端不使用IPC_EXCL，因为writer端已创建共享内存，检查存在返回错误
     int shmid = shmget(key, shm_size, 0644 |IPC_CREAT);
     if(shmid == -1){
         std::cout << "Failed to creat shm" << std::endl;

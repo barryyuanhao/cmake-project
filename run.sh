@@ -8,7 +8,3 @@ cd ..
 # echo "***************************"
 echo " Finish build this project "
 # echo "***************************"
-
-# bin/node_one
-
-# bin/node_two
