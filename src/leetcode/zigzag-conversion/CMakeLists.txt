@@ -8,6 +8,15 @@ message(STATUS "CMAKE_CURRENT_SOURCE_DIR: ${CMAKE_CURRENT_SOURCE_DIR}")
 message(STATUS "PROJECT_SOURCE_DIR: ${cmake-learning_SOURCE_DIR}")
 message(STATUS "PROJECT_BINARY_DIR: ${cmake-learning_BINARY_DIR}")
 
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/median-of-two-sorted-arrays)
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/longest-palindromic-substring)
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/zigzag-conversion)
+set(APP_SOURCE
+${CMAKE_CURRENT_SOURCE_DIR}/zigzag-conversion.cc
+)
+
+set(APP_HEADERS
+# ${CMAKE_CURRENT_SOURCE_DIR}/shm_reader.h
+)
+
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin/leetcode)
+
+# ADD_EXECUTABLE(binary_name ${SRC_LIST}) 定义了这个工程会生成一个文件名为 binary_name 的可执行文件
+add_executable(zigzag-conversion ${APP_SOURCE} ${APP_HEADERS})
