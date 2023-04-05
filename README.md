@@ -1,4 +1,4 @@
-<center>**仓库说明**</center>
+## 仓库说明
 
 cmake-project 本Git仓库主要用于一些知识学习的练习demo，在 src 中存放了不同demo的文件夹
 
