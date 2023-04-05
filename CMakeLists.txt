@@ -25,4 +25,4 @@ message(STATUS "PROJECT_BINARY_DIR: ${cmake-learning_BINARY_DIR}")
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src/share-memory)
 
 # leetcode 力扣题目
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src/leetcode)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src/testcode)
