@@ -9,7 +9,7 @@ message(STATUS "PROJECT_SOURCE_DIR: ${cmake-learning_SOURCE_DIR}")
 message(STATUS "PROJECT_BINARY_DIR: ${cmake-learning_BINARY_DIR}")
 
 set(APP_SOURCE
-${CMAKE_CURRENT_SOURCE_DIR}/atoi.cc
+${CMAKE_CURRENT_SOURCE_DIR}/palindrome-number.cc
 )
 
 set(APP_HEADERS
@@ -19,4 +19,4 @@ set(APP_HEADERS
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin/testcode)
 
 # ADD_EXECUTABLE(binary_name ${SRC_LIST}) 定义了这个工程会生成一个文件名为 binary_name 的可执行文件
-add_executable(atoi ${APP_SOURCE} ${APP_HEADERS})
+add_executable(palindrome-number ${APP_SOURCE} ${APP_HEADERS})
