@@ -9,6 +9,7 @@ message(STATUS "PROJECT_SOURCE_DIR: ${cmake-learning_SOURCE_DIR}")
 message(STATUS "PROJECT_BINARY_DIR: ${cmake-learning_BINARY_DIR}")
 
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/1_two-sum)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/2_add-two-numbers)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/4_median-of-two-sorted-arrays)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/5_longest-palindromic-substring)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/6_zigzag-conversion)
