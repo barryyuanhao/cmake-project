@@ -19,4 +19,5 @@ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/8_atoi)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/9_palindrome-number)
 
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/11_container-with-most-water)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/12_integer-to-roman)
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/)
