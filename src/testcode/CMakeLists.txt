@@ -23,4 +23,5 @@ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/12_integer-to-roman)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/13_roman-to-integer)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/14_longest-common-prefix)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/15_3sum)
-# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/16_3sum-closest)
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/)16_3sum-closest
