@@ -2,7 +2,13 @@
 
 rm -r build/ bin/
 mkdir build
-cd build && cmake .. && make
+
+if [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ];then
+    cd build && cmake ..  -G "MinGW Makefiles" && make
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ];then
+    cd build && cmake .. && make
+fi
+
 cd ..
 
 # echo "***************************"
