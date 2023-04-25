@@ -2,10 +2,12 @@
 
 class Solution {
 public:
-    int divide(int dividend, int divisor) {
-
-    }
+    int divide(int dividend, int divisor);
 };
+
+int Solution::divide(int dividend, int divisor) {
+
+}
 
 int main(int argc, char* argv[]){
 

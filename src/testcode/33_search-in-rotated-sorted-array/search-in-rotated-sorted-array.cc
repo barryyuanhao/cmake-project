@@ -1,12 +1,16 @@
 #include <iostream>
 #include <vector>
 
+using namespace std;
+
 class Solution {
 public:
-    int search(vector<int>& nums, int target) {
-
-    }
+    int search(vector<int>& nums, int target);
 };
+
+int Solution::search(vector<int>& nums, int target) {
+
+}
 
 int main(int argc, char* argv[]){
 

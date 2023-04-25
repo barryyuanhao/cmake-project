@@ -9,12 +9,11 @@ message(STATUS "PROJECT_SOURCE_DIR: ${cmake-learning_SOURCE_DIR}")
 message(STATUS "PROJECT_BINARY_DIR: ${cmake-learning_BINARY_DIR}")
 
 set(APP_SOURCE
-# ${CMAKE_CURRENT_SOURCE_DIR}/median-arrays.cc
-${CMAKE_CURRENT_SOURCE_DIR}/median-arrays-cc.cc
+${CMAKE_CURRENT_SOURCE_DIR}/median-arrays.cc
 )
 
 set(APP_HEADERS
-${CMAKE_CURRENT_SOURCE_DIR}/median-arrays.h
+# ${CMAKE_CURRENT_SOURCE_DIR}/median-arrays.h
 )
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin/testcode)
