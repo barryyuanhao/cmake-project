@@ -22,7 +22,10 @@ message(STATUS "PROJECT_BINARY_DIR: ${cmake-learning_BINARY_DIR}")
 
 #                           示例代码部分
 # 共享内存
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src/share-memory)
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src/share-memory)
+
+# 共享指针
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src/shared_ptr)
 
 # leetcode 力扣题目
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src/testcode)
