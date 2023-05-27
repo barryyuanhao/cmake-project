@@ -8,7 +8,7 @@ public:
     int climbStairs(int n);
 };
 
-int climbStairs(int n) {
+int Solution::climbStairs(int n) {
 
 }
 

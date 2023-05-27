@@ -8,7 +8,7 @@ public:
     vector<vector<int>> combine(int n, int k);
 };
 
-vector<vector<int>> combine(int n, int k) {
+vector<vector<int>> Solution::combine(int n, int k) {
 
 }
 

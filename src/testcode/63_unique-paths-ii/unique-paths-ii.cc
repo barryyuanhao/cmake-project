@@ -8,7 +8,7 @@ public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid);
 };
 
-int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
+int Solution::uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
 
 }
 

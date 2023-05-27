@@ -8,7 +8,7 @@ public:
     vector<vector<int>> subsets(vector<int>& nums);
 };
 
-vector<vector<int>> subsets(vector<int>& nums) {
+vector<vector<int>> Solution::subsets(vector<int>& nums) {
 
 }
 

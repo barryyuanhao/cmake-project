@@ -8,7 +8,7 @@ public:
     void sortColors(vector<int>& nums);
 };
 
-void sortColors(vector<int>& nums) {
+void Solution::sortColors(vector<int>& nums) {
 
 }
 

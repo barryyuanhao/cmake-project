@@ -8,7 +8,7 @@ public:
     string simplifyPath(string path);
 };
 
-string simplifyPath(string path) {
+string Solution::simplifyPath(string path) {
 
 }
 

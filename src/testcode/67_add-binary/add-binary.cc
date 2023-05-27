@@ -8,7 +8,7 @@ public:
     string addBinary(string a, string b);
 };
 
-string addBinary(string a, string b) {
+string Solution::addBinary(string a, string b) {
 
 }
 

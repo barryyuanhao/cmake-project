@@ -8,7 +8,7 @@ public:
     int mySqrt(int x);
 };
 
-int mySqrt(int x) {
+int Solution::mySqrt(int x) {
 
 }
 

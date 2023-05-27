@@ -8,7 +8,7 @@ public:
     int uniquePaths(int m, int n);
 };
 
-int uniquePaths(int m, int n) {
+int Solution::uniquePaths(int m, int n) {
 
 }
 

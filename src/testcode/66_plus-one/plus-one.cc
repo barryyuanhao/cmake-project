@@ -8,7 +8,7 @@ public:
     vector<int> plusOne(vector<int>& digits);
 };
 
-vector<int> plusOne(vector<int>& digits) {
+vector<int> Solution::plusOne(vector<int>& digits) {
 
 }
 

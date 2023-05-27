@@ -8,7 +8,7 @@ public:
     int removeDuplicates(vector<int>& nums);
 };
 
-int removeDuplicates(vector<int>& nums) {
+int Solution::removeDuplicates(vector<int>& nums) {
 
 }
 

@@ -8,7 +8,7 @@ public:
     int lengthOfLastWord(string s);
 };
 
-int lengthOfLastWord(string s) {
+int Solution::lengthOfLastWord(string s) {
 
 }
 

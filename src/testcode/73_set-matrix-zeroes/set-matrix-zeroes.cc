@@ -8,7 +8,7 @@ public:
     void setZeroes(vector<vector<int>>& matrix);
 };
 
-void setZeroes(vector<vector<int>>& matrix) {
+void Solution::setZeroes(vector<vector<int>>& matrix) {
 
 }
 

@@ -8,7 +8,7 @@ public:
     int minPathSum(vector<vector<int>>& grid);
 };
 
-int minPathSum(vector<vector<int>>& grid) {
+int Solution::minPathSum(vector<vector<int>>& grid) {
 
 }
 

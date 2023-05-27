@@ -8,7 +8,7 @@ public:
     int maxSubArray(vector<int>& nums);
 };
 
-int maxSubArray(vector<int>& nums) {
+int Solution::maxSubArray(vector<int>& nums) {
 
 }
 

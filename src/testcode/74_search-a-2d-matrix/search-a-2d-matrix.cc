@@ -8,7 +8,7 @@ public:
     bool searchMatrix(vector<vector<int>>& matrix, int target);
 };
 
-bool searchMatrix(vector<vector<int>>& matrix, int target) {
+bool Solution::searchMatrix(vector<vector<int>>& matrix, int target) {
 
 }
 

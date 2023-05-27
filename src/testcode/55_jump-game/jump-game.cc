@@ -8,7 +8,7 @@ public:
     bool canJump(vector<int>& nums);
 };
 
-bool canJump(vector<int>& nums) {
+bool Solution::canJump(vector<int>& nums) {
 
 }
 

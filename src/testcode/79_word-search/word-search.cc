@@ -8,7 +8,7 @@ public:
     bool exist(vector<vector<char>>& board, string word);
 };
 
-bool exist(vector<vector<char>>& board, string word) {
+bool Solution::exist(vector<vector<char>>& board, string word) {
 
 }
 

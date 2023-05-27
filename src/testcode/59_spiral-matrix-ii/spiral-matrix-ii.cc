@@ -8,7 +8,7 @@ public:
     vector<vector<int>> generateMatrix(int n);
 };
 
-vector<vector<int>> generateMatrix(int n) {
+vector<vector<int>> Solution::generateMatrix(int n) {
 
 }
 
