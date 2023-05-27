@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string.h>
 
+using namespace std;
 class Solution {
 public:
     std::string intToRoman(int num);

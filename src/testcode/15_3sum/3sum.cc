@@ -2,6 +2,8 @@
 #include <vector>
 #include <algorithm>
 
+using namespace std;
+
 class Solution {
 public:
     std::vector<std::vector<int>> threeSum(std::vector<int>& nums);
