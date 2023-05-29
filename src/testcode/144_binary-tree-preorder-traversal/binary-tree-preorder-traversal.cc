@@ -22,10 +22,10 @@ typedef struct TreeNode{
  */
 class Solution {
 public:
-    vector<int> inorderTraversal(TreeNode* root);
+    vector<int> preorderTraversal(TreeNode* root);
 };
 
-vector<int> Solution::inorderTraversal(TreeNode* root){}
+vector<int> Solution::preorderTraversal(TreeNode* root){}
 
 int main(int argc, char* argv[]){
     

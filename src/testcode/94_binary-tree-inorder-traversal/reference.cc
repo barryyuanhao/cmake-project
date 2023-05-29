@@ -22,10 +22,24 @@ typedef struct TreeNode{
  */
 class Solution {
 public:
-    vector<int> inorderTraversal(TreeNode* root);
-};
+    vector<int> result;
+    void binaryTree(TreeNode* node){
+        // 中序遍历： 左-中-右
+        // 检查是否为空二叉树
+        if(node == nullptr){return;}
+        // 遍历左分支
+        inorderTraversal(node->left);
+        // 根节点
+        result.push_back(node->val);
+        // 遍历右分支
+        inorderTraversal(node->right);
+    }
 
-vector<int> Solution::inorderTraversal(TreeNode* root){}
+    vector<int> inorderTraversal(TreeNode* root) {
+        binaryTree(root);
+        return result;
+    }
+};
 
 int main(int argc, char* argv[]){
     
