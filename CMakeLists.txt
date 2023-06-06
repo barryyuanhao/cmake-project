@@ -25,6 +25,12 @@ message(STATUS "PROJECT_BINARY_DIR: ${cmake-learning_BINARY_DIR}")
 # DFS 深度优先搜索
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src/DFS)
 
+# Instance 单例实现
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src/Instance)
+
+# LFU 最近最少使用算法
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src/LFU)
+
 # 共享内存
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src/share-memory)
 
