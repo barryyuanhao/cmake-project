@@ -112,7 +112,7 @@ message(STATUS "PROJECT_BINARY_DIR: ${cmake-learning_BINARY_DIR}")
 #二分查找：[左闭，右闭]（可以检测所有的元素） 以及 [左闭，右开）(需要对最后一个元素处理)
 #    https://blog.csdn.net/qq_34732729/article/details/100666158
 #    [左闭，右闭]：74、
-#    [左闭，右开):
+#    [左闭，右开): 81、
 
 #排序：
 #快速排序：75
