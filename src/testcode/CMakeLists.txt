@@ -65,7 +65,7 @@ message(STATUS "PROJECT_BINARY_DIR: ${cmake-learning_BINARY_DIR}")
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/57_insert-interval)
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/58_length-of-last-word)
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/59_spiral-matrix-ii)
-
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/60_permutation-sequence)
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/61_rotate-list)
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/62_unique-paths)
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/63_unique-paths-ii)
@@ -103,8 +103,18 @@ message(STATUS "PROJECT_BINARY_DIR: ${cmake-learning_BINARY_DIR}")
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/98_validate-binary-search-tree)
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/99_recover-binary-search-tree)
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/100_same-tree)
-# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/)
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/101_symmetric-tree_submissions)
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/102_binary-tree-level-order-traversal)
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/103_binary-tree-zigzag-level-order-traversal)
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/104_maximum-depth-of-binary-tree)
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/)
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/)
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/)
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/108_convert-sorted-array-to-binary-search-tree)
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/)
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/)
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/144_binary-tree-preorder-traversal)
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/145_binary-tree-postorder-traversal)
 # add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/)
 
 # 重刷题目：25、30、45、51、53、62、63、79、80
@@ -122,5 +132,7 @@ message(STATUS "PROJECT_BINARY_DIR: ${cmake-learning_BINARY_DIR}")
 #链表： 82、83
 
 #二叉树
-#二叉树搜索：144、94、145、102
+#二叉树搜索：94、102、103、144、145
 #平衡二叉树：
+
+#动态规划：96、
